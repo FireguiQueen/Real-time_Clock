@@ -1,1 +1,2 @@
-- [ ] 
+- [ ] Criar todas as funções de formatação de horário 
+-  
