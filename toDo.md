@@ -1,3 +1,3 @@
 - [ ] Criar todas as funções de formatação de data;
 - [ ] Um pouco de SEO;
-- [ ] Estilizar o site;
+- [ ] Estilizar o site
