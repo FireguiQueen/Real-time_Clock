@@ -4,7 +4,7 @@ function todaySDate(){
     const date = new Date();
     
 
-    // 
+    // Captura nosso elemento HTML
     const sendToPage = document.getElementById('sayDate'); 
     sendToPage.innerText = fullDate(dayOfTheWeek(), date.getDate(), dayOfMonth(), todaySTime(), date.getFullYear())
 
