@@ -2,13 +2,19 @@ function todaySDate(){
 
     // Captura a data (year, month, day, hours, minutes, seconds).  
     const date = new Date();
+    
+
+    // 
+    const sendToPage = document.getElementById('sayDate'); 
+    sendToPage.innerText = fullDate(dayOfTheWeek(), date.getDate(), dayOfMonth(), todaySTime(), date.getFullYear())
+
 
     // Dia da semana, dia do mês, mês, horário e ano.
-    // >> EX: Segunda-feira, 18 de junho, às 22:22 de 2023. 
+    // >> EX: Segunda-feira, 18 de junho de 2023 às 06:30:02. 
     function fullDate(weekDay = 'Segunda-feira', monthDay = '1', month = 'Janeiro', time = '06:30:20', year = '1970'){
-        return `${weekDay}, ${monthDay} ${month} às ${time} de ${year}` 
+        return `${weekDay}, ${monthDay} ${month} de ${year} às ${time}`
     }
-    console.log(fullDate(dayOfTheWeek(), date.getDate(), dayOfMonth(), todaySTime(), date.getFullYear()))
+
 
 
     // Retorna o dia da semana
@@ -55,6 +61,7 @@ function todaySDate(){
     }
 } todaySDate();
 
+setInterval(todaySDate, 1000);
 
 
 

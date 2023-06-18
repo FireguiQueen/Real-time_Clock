@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,#0d1b2a, #1b263b, #1f2d3c);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: #f9f7f7;
+    padding: 25px;
+    border-radius: 18px;
+}
+
+h1{
+    font-size: 45px;
+    word-spacing: 2px;
+    color: rgb(29, 29, 29);
+
+    filter: drop-shadow(0 22px 4.8px)
+}
+
+::selection{
+    background-color: transparent;
+}
