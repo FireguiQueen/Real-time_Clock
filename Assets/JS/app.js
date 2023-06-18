@@ -16,7 +16,6 @@ function todaySDate(){
     }
 
 
-
     // Retorna o dia da semana
     function dayOfTheWeek(){
         const weekDay = date.getDay()
