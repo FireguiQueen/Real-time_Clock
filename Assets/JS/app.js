@@ -28,7 +28,7 @@ function todaySDate(){
             'Sexta-feira',
             'Sábado'
         ]
-        return sundayToSaturday[0];
+        return sundayToSaturday[weekDay];
     }
 
     // Retorna o mês
@@ -48,7 +48,7 @@ function todaySDate(){
             'Novembro', 
             'Dezembro'
         ]; 
-        return JanuaryToDecember[monthDay]
+        return JanuaryToDecember[0]
     }
 
     // Retorna o horário 
