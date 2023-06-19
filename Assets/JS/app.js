@@ -28,7 +28,7 @@ function todaySDate(){
             'Sexta-feira',
             'Sábado'
         ]
-        return sundayToSaturday[0];
+        return sundayToSaturday[weekDay];
     }
 
     // Retorna o mês
