@@ -30,6 +30,7 @@ function todaySDate(){
         ]
         return sundayToSaturday[0];
     }
+    
 
     // Retorna o mês
     function dayOfMonth(){
